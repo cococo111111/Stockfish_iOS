@@ -31,7 +31,7 @@ static const int CHAR_EOF = 256;
 
 // types
 
-enum token_t {
+enum token_t_ {
    TOKEN_ERROR = -1,
    TOKEN_EOF = 256,
    TOKEN_SYMBOL = 257,
