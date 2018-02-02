@@ -24,7 +24,7 @@
 #include <string>
 
 #include "position.h"
-#include "types.h"
+#include "types_.h"
 
 
 /// EndgameType lists all supported endgames

@@ -18,6 +18,7 @@
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+#include <iostream>
 #include <algorithm>
 #include <cassert>
 #include <cstddef> // For offsetof()
@@ -1155,7 +1156,10 @@ bool Position::pos_is_ok() const {
       || piece_on(square<KING>(BLACK)) != B_KING
       || (   ep_square() != SQ_NONE
           && relative_rank(sideToMove, ep_square()) != RANK_6))
+  {
+      std::cout << fen() << std::endl;
       assert(0 && "pos_is_ok: Default");
+  }
 
   if (Fast)
       return true;

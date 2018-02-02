@@ -612,7 +612,6 @@
 		1796FF7F11D3921A0074E5B7 /* TypeFileNameController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1796FF5111D3921A0074E5B7 /* TypeFileNameController.mm */; };
 		1799C31615DA7AEF0042DE41 /* ECO.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1799C31515DA7AEF0042DE41 /* ECO.mm */; };
 		1799C31815DA88310042DE41 /* eco.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1799C31715DA88310042DE41 /* eco.txt */; };
-		17C81EE517E314FA00A47866 /* notation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17C81EE317E314FA00A47866 /* notation.cpp */; };
 		17C81EE717E4835000A47866 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17C81EE617E4835000A47866 /* QuartzCore.framework */; };
 		17CD831A17E6041A00D4B532 /* book.bin in Resources */ = {isa = PBXBuildFile; fileRef = 17CD831917E6041A00D4B532 /* book.bin */; };
 		17D23EBF127C0A940018E053 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 17D23EBC127C0A940018E053 /* Icon-72.png */; };
@@ -622,25 +621,6 @@
 		17DC4770132B938B00C48450 /* CoordinatesView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17DC476F132B938B00C48450 /* CoordinatesView.mm */; };
 		17DC58CC19DC502D007F46B5 /* Icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17DC58CB19DC502D007F46B5 /* Icon@3x.png */; };
 		17DC58D019DC5104007F46B5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DC58CF19DC5104007F46B5 /* Images.xcassets */; };
-		17DCB80915C54A2D005ADD54 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7DF15C54A2D005ADD54 /* benchmark.cpp */; };
-		17DCB80A15C54A2D005ADD54 /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7E015C54A2D005ADD54 /* bitbase.cpp */; };
-		17DCB80B15C54A2D005ADD54 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7E115C54A2D005ADD54 /* bitboard.cpp */; };
-		17DCB80C15C54A2D005ADD54 /* book.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7E415C54A2D005ADD54 /* book.cpp */; };
-		17DCB80D15C54A2D005ADD54 /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7E615C54A2D005ADD54 /* endgame.cpp */; };
-		17DCB80E15C54A2D005ADD54 /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7E815C54A2D005ADD54 /* evaluate.cpp */; };
-		17DCB80F15C54A2D005ADD54 /* iphone.mm in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7EC15C54A2D005ADD54 /* iphone.mm */; };
-		17DCB81015C54A2D005ADD54 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7EE15C54A2D005ADD54 /* material.cpp */; };
-		17DCB81115C54A2D005ADD54 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7F015C54A2D005ADD54 /* misc.cpp */; };
-		17DCB81315C54A2D005ADD54 /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7F315C54A2D005ADD54 /* movegen.cpp */; };
-		17DCB81415C54A2D005ADD54 /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7F515C54A2D005ADD54 /* movepick.cpp */; };
-		17DCB81515C54A2D005ADD54 /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7F715C54A2D005ADD54 /* pawns.cpp */; };
-		17DCB81615C54A2D005ADD54 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7F915C54A2D005ADD54 /* position.cpp */; };
-		17DCB81715C54A2D005ADD54 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7FD15C54A2D005ADD54 /* search.cpp */; };
-		17DCB81815C54A2D005ADD54 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB7FF15C54A2D005ADD54 /* thread.cpp */; };
-		17DCB81915C54A2D005ADD54 /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB80115C54A2D005ADD54 /* timeman.cpp */; };
-		17DCB81A15C54A2D005ADD54 /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB80315C54A2D005ADD54 /* tt.cpp */; };
-		17DCB81B15C54A2D005ADD54 /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB80615C54A2D005ADD54 /* uci.cpp */; };
-		17DCB81C15C54A2D005ADD54 /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 17DCB80715C54A2D005ADD54 /* ucioption.cpp */; };
 		17DCB81E15C55339005ADD54 /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 17DCB81D15C55339005ADD54 /* Icon-72@2x.png */; };
 		17EB9AE215C4394A00AFF87A /* Bishop1.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17EB9AD615C4394A00AFF87A /* Bishop1.wav */; };
 		17EB9AE315C4394A00AFF87A /* Bishop2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 17EB9AD715C4394A00AFF87A /* Bishop2.wav */; };
@@ -667,6 +647,38 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		3669E881C221C4E64F0C2F9E /* ColorUtils.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3669E10D3A8EE40F981232B6 /* ColorUtils.mm */; };
 		3669EEA85F37F07344CF192F /* ArrowView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3669E50F4255300CE2D0FAD3 /* ArrowView.mm */; };
+		EF6DD5AD20249ADF00073FD6 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD57820249ADF00073FD6 /* .travis.yml */; };
+		EF6DD5AE20249ADF00073FD6 /* appveyor.yml in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD57920249ADF00073FD6 /* appveyor.yml */; };
+		EF6DD5AF20249ADF00073FD6 /* AUTHORS in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD57A20249ADF00073FD6 /* AUTHORS */; };
+		EF6DD5B020249ADF00073FD6 /* Copying.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD57B20249ADF00073FD6 /* Copying.txt */; };
+		EF6DD5B120249ADF00073FD6 /* iphone.mm in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD57D20249ADF00073FD6 /* iphone.mm */; };
+		EF6DD5B220249ADF00073FD6 /* Readme.md in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD57E20249ADF00073FD6 /* Readme.md */; };
+		EF6DD5B320249ADF00073FD6 /* benchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58020249ADF00073FD6 /* benchmark.cpp */; };
+		EF6DD5B420249ADF00073FD6 /* bitbase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58120249ADF00073FD6 /* bitbase.cpp */; };
+		EF6DD5B520249ADF00073FD6 /* bitboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58220249ADF00073FD6 /* bitboard.cpp */; };
+		EF6DD5B620249ADF00073FD6 /* endgame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58420249ADF00073FD6 /* endgame.cpp */; };
+		EF6DD5B720249ADF00073FD6 /* evaluate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58620249ADF00073FD6 /* evaluate.cpp */; };
+		EF6DD5B820249ADF00073FD6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58820249ADF00073FD6 /* main.cpp */; };
+		EF6DD5B920249ADF00073FD6 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58920249ADF00073FD6 /* Makefile */; };
+		EF6DD5BA20249ADF00073FD6 /* material.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58A20249ADF00073FD6 /* material.cpp */; };
+		EF6DD5BB20249ADF00073FD6 /* misc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58C20249ADF00073FD6 /* misc.cpp */; };
+		EF6DD5BC20249ADF00073FD6 /* movegen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD58E20249ADF00073FD6 /* movegen.cpp */; };
+		EF6DD5BD20249ADF00073FD6 /* movepick.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD59020249ADF00073FD6 /* movepick.cpp */; };
+		EF6DD5BE20249ADF00073FD6 /* pawns.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD59220249ADF00073FD6 /* pawns.cpp */; };
+		EF6DD5BF20249ADF00073FD6 /* position.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD59420249ADF00073FD6 /* position.cpp */; };
+		EF6DD5C020249ADF00073FD6 /* psqt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD59620249ADF00073FD6 /* psqt.cpp */; };
+		EF6DD5C120249ADF00073FD6 /* search.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD59720249ADF00073FD6 /* search.cpp */; };
+		EF6DD5C220249ADF00073FD6 /* tbprobe.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD59A20249ADF00073FD6 /* tbprobe.cpp */; };
+		EF6DD5C320249ADF00073FD6 /* thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD59C20249ADF00073FD6 /* thread.cpp */; };
+		EF6DD5C420249ADF00073FD6 /* timeman.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD59F20249ADF00073FD6 /* timeman.cpp */; };
+		EF6DD5C520249ADF00073FD6 /* tt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD5A120249ADF00073FD6 /* tt.cpp */; };
+		EF6DD5C620249ADF00073FD6 /* uci.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD5A420249ADF00073FD6 /* uci.cpp */; };
+		EF6DD5C720249ADF00073FD6 /* ucioption.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EF6DD5A620249ADF00073FD6 /* ucioption.cpp */; };
+		EF6DD5C820249ADF00073FD6 /* instrumented.sh in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD5A820249ADF00073FD6 /* instrumented.sh */; };
+		EF6DD5C920249ADF00073FD6 /* perft.sh in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD5A920249ADF00073FD6 /* perft.sh */; };
+		EF6DD5CA20249ADF00073FD6 /* reprosearch.sh in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD5AA20249ADF00073FD6 /* reprosearch.sh */; };
+		EF6DD5CB20249ADF00073FD6 /* signature.sh in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD5AB20249ADF00073FD6 /* signature.sh */; };
+		EF6DD5CC20249ADF00073FD6 /* Top CPU Contributors.txt in Resources */ = {isa = PBXBuildFile; fileRef = EF6DD5AC20249ADF00073FD6 /* Top CPU Contributors.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -1253,7 +1265,7 @@
 		1796007911D393A60074E5B7 /* scale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = scale.h; path = Chess/scale.h; sourceTree = "<group>"; };
 		1796007A11D393A60074E5B7 /* square.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = square.cpp; path = Chess/square.cpp; sourceTree = "<group>"; };
 		1796007B11D393A60074E5B7 /* square.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = square.h; path = Chess/square.h; sourceTree = "<group>"; };
-		1796007C11D393A60074E5B7 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = Chess/types.h; sourceTree = "<group>"; };
+		1796007C11D393A60074E5B7 /* types_.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types_.h; path = Chess/types_.h; sourceTree = "<group>"; };
 		1796007D11D393A60074E5B7 /* value.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = value.cpp; path = Chess/value.cpp; sourceTree = "<group>"; };
 		1796007E11D393A60074E5B7 /* value.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = value.h; path = Chess/value.h; sourceTree = "<group>"; };
 		179600DE11D397240074E5B7 /* Icon-big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-big.png"; sourceTree = "<group>"; };
@@ -1346,8 +1358,6 @@
 		1799C31415DA7AEF0042DE41 /* ECO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECO.h; sourceTree = "<group>"; };
 		1799C31515DA7AEF0042DE41 /* ECO.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ECO.mm; sourceTree = "<group>"; };
 		1799C31715DA88310042DE41 /* eco.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = eco.txt; sourceTree = "<group>"; };
-		17C81EE317E314FA00A47866 /* notation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = notation.cpp; path = Engine/notation.cpp; sourceTree = SOURCE_ROOT; };
-		17C81EE417E314FA00A47866 /* notation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = notation.h; path = Engine/notation.h; sourceTree = SOURCE_ROOT; };
 		17C81EE617E4835000A47866 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		17CD831917E6041A00D4B532 /* book.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = book.bin; sourceTree = "<group>"; };
 		17D23EBC127C0A940018E053 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -1358,45 +1368,6 @@
 		17DC476F132B938B00C48450 /* CoordinatesView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CoordinatesView.mm; sourceTree = "<group>"; };
 		17DC58CB19DC502D007F46B5 /* Icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@3x.png"; sourceTree = "<group>"; };
 		17DC58CF19DC5104007F46B5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		17DCB7DF15C54A2D005ADD54 /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = benchmark.cpp; path = Engine/benchmark.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7E015C54A2D005ADD54 /* bitbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitbase.cpp; path = Engine/bitbase.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7E115C54A2D005ADD54 /* bitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = bitboard.cpp; path = Engine/bitboard.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7E215C54A2D005ADD54 /* bitboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitboard.h; path = Engine/bitboard.h; sourceTree = SOURCE_ROOT; };
-		17DCB7E315C54A2D005ADD54 /* bitcount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bitcount.h; path = Engine/bitcount.h; sourceTree = SOURCE_ROOT; };
-		17DCB7E415C54A2D005ADD54 /* book.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = book.cpp; path = Engine/book.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7E515C54A2D005ADD54 /* book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = book.h; path = Engine/book.h; sourceTree = SOURCE_ROOT; };
-		17DCB7E615C54A2D005ADD54 /* endgame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = endgame.cpp; path = Engine/endgame.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7E715C54A2D005ADD54 /* endgame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = endgame.h; path = Engine/endgame.h; sourceTree = SOURCE_ROOT; };
-		17DCB7E815C54A2D005ADD54 /* evaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = evaluate.cpp; path = Engine/evaluate.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7E915C54A2D005ADD54 /* evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = evaluate.h; path = Engine/evaluate.h; sourceTree = SOURCE_ROOT; };
-		17DCB7EB15C54A2D005ADD54 /* iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iphone.h; path = Engine/iphone.h; sourceTree = SOURCE_ROOT; };
-		17DCB7EC15C54A2D005ADD54 /* iphone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = iphone.mm; path = Engine/iphone.mm; sourceTree = SOURCE_ROOT; };
-		17DCB7EE15C54A2D005ADD54 /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = material.cpp; path = Engine/material.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7EF15C54A2D005ADD54 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = material.h; path = Engine/material.h; sourceTree = SOURCE_ROOT; };
-		17DCB7F015C54A2D005ADD54 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = misc.cpp; path = Engine/misc.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7F115C54A2D005ADD54 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = misc.h; path = Engine/misc.h; sourceTree = SOURCE_ROOT; };
-		17DCB7F315C54A2D005ADD54 /* movegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = movegen.cpp; path = Engine/movegen.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7F415C54A2D005ADD54 /* movegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movegen.h; path = Engine/movegen.h; sourceTree = SOURCE_ROOT; };
-		17DCB7F515C54A2D005ADD54 /* movepick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = movepick.cpp; path = Engine/movepick.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7F615C54A2D005ADD54 /* movepick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = movepick.h; path = Engine/movepick.h; sourceTree = SOURCE_ROOT; };
-		17DCB7F715C54A2D005ADD54 /* pawns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pawns.cpp; path = Engine/pawns.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7F815C54A2D005ADD54 /* pawns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = pawns.h; path = Engine/pawns.h; sourceTree = SOURCE_ROOT; };
-		17DCB7F915C54A2D005ADD54 /* position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = position.cpp; path = Engine/position.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7FA15C54A2D005ADD54 /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = position.h; path = Engine/position.h; sourceTree = SOURCE_ROOT; };
-		17DCB7FB15C54A2D005ADD54 /* psqtab.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = psqtab.h; path = Engine/psqtab.h; sourceTree = SOURCE_ROOT; };
-		17DCB7FC15C54A2D005ADD54 /* rkiss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = rkiss.h; path = Engine/rkiss.h; sourceTree = SOURCE_ROOT; };
-		17DCB7FD15C54A2D005ADD54 /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = search.cpp; path = Engine/search.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB7FE15C54A2D005ADD54 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = search.h; path = Engine/search.h; sourceTree = SOURCE_ROOT; };
-		17DCB7FF15C54A2D005ADD54 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = thread.cpp; path = Engine/thread.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB80015C54A2D005ADD54 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = thread.h; path = Engine/thread.h; sourceTree = SOURCE_ROOT; };
-		17DCB80115C54A2D005ADD54 /* timeman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = timeman.cpp; path = Engine/timeman.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB80215C54A2D005ADD54 /* timeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = timeman.h; path = Engine/timeman.h; sourceTree = SOURCE_ROOT; };
-		17DCB80315C54A2D005ADD54 /* tt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = tt.cpp; path = Engine/tt.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB80415C54A2D005ADD54 /* tt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = tt.h; path = Engine/tt.h; sourceTree = SOURCE_ROOT; };
-		17DCB80515C54A2D005ADD54 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = types.h; path = Engine/types.h; sourceTree = SOURCE_ROOT; };
-		17DCB80615C54A2D005ADD54 /* uci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uci.cpp; path = Engine/uci.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB80715C54A2D005ADD54 /* ucioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ucioption.cpp; path = Engine/ucioption.cpp; sourceTree = SOURCE_ROOT; };
-		17DCB80815C54A2D005ADD54 /* ucioption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ucioption.h; path = Engine/ucioption.h; sourceTree = SOURCE_ROOT; };
 		17DCB81D15C55339005ADD54 /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
 		17EB9AD615C4394A00AFF87A /* Bishop1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Bishop1.wav; path = Sounds/Bishop1.wav; sourceTree = "<group>"; };
 		17EB9AD715C4394A00AFF87A /* Bishop2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Bishop2.wav; path = Sounds/Bishop2.wav; sourceTree = "<group>"; };
@@ -1428,6 +1399,56 @@
 		3669E8F40602BE7AC99B4F60 /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
 		3669EFA6EE823426143F23FE /* ArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArrowView.h; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Stockfish-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Stockfish-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		EF6DD57820249ADF00073FD6 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .travis.yml; sourceTree = "<group>"; };
+		EF6DD57920249ADF00073FD6 /* appveyor.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = appveyor.yml; sourceTree = "<group>"; };
+		EF6DD57A20249ADF00073FD6 /* AUTHORS */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AUTHORS; sourceTree = "<group>"; };
+		EF6DD57B20249ADF00073FD6 /* Copying.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Copying.txt; sourceTree = "<group>"; };
+		EF6DD57C20249ADF00073FD6 /* iphone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphone.h; sourceTree = "<group>"; };
+		EF6DD57D20249ADF00073FD6 /* iphone.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iphone.mm; sourceTree = "<group>"; };
+		EF6DD57E20249ADF00073FD6 /* Readme.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = Readme.md; sourceTree = "<group>"; };
+		EF6DD58020249ADF00073FD6 /* benchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = benchmark.cpp; sourceTree = "<group>"; };
+		EF6DD58120249ADF00073FD6 /* bitbase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitbase.cpp; sourceTree = "<group>"; };
+		EF6DD58220249ADF00073FD6 /* bitboard.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = bitboard.cpp; sourceTree = "<group>"; };
+		EF6DD58320249ADF00073FD6 /* bitboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitboard.h; sourceTree = "<group>"; };
+		EF6DD58420249ADF00073FD6 /* endgame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = endgame.cpp; sourceTree = "<group>"; };
+		EF6DD58520249ADF00073FD6 /* endgame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = endgame.h; sourceTree = "<group>"; };
+		EF6DD58620249ADF00073FD6 /* evaluate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = evaluate.cpp; sourceTree = "<group>"; };
+		EF6DD58720249ADF00073FD6 /* evaluate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evaluate.h; sourceTree = "<group>"; };
+		EF6DD58820249ADF00073FD6 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		EF6DD58920249ADF00073FD6 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		EF6DD58A20249ADF00073FD6 /* material.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = material.cpp; sourceTree = "<group>"; };
+		EF6DD58B20249ADF00073FD6 /* material.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = material.h; sourceTree = "<group>"; };
+		EF6DD58C20249ADF00073FD6 /* misc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = misc.cpp; sourceTree = "<group>"; };
+		EF6DD58D20249ADF00073FD6 /* misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = misc.h; sourceTree = "<group>"; };
+		EF6DD58E20249ADF00073FD6 /* movegen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movegen.cpp; sourceTree = "<group>"; };
+		EF6DD58F20249ADF00073FD6 /* movegen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movegen.h; sourceTree = "<group>"; };
+		EF6DD59020249ADF00073FD6 /* movepick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = movepick.cpp; sourceTree = "<group>"; };
+		EF6DD59120249ADF00073FD6 /* movepick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = movepick.h; sourceTree = "<group>"; };
+		EF6DD59220249ADF00073FD6 /* pawns.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = pawns.cpp; sourceTree = "<group>"; };
+		EF6DD59320249ADF00073FD6 /* pawns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pawns.h; sourceTree = "<group>"; };
+		EF6DD59420249ADF00073FD6 /* position.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = position.cpp; sourceTree = "<group>"; };
+		EF6DD59520249ADF00073FD6 /* position.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = position.h; sourceTree = "<group>"; };
+		EF6DD59620249ADF00073FD6 /* psqt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = psqt.cpp; sourceTree = "<group>"; };
+		EF6DD59720249ADF00073FD6 /* search.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = search.cpp; sourceTree = "<group>"; };
+		EF6DD59820249ADF00073FD6 /* search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = search.h; sourceTree = "<group>"; };
+		EF6DD59A20249ADF00073FD6 /* tbprobe.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tbprobe.cpp; sourceTree = "<group>"; };
+		EF6DD59B20249ADF00073FD6 /* tbprobe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tbprobe.h; sourceTree = "<group>"; };
+		EF6DD59C20249ADF00073FD6 /* thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = thread.cpp; sourceTree = "<group>"; };
+		EF6DD59D20249ADF00073FD6 /* thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread.h; sourceTree = "<group>"; };
+		EF6DD59E20249ADF00073FD6 /* thread_win32.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = thread_win32.h; sourceTree = "<group>"; };
+		EF6DD59F20249ADF00073FD6 /* timeman.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = timeman.cpp; sourceTree = "<group>"; };
+		EF6DD5A020249ADF00073FD6 /* timeman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = timeman.h; sourceTree = "<group>"; };
+		EF6DD5A120249ADF00073FD6 /* tt.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tt.cpp; sourceTree = "<group>"; };
+		EF6DD5A220249ADF00073FD6 /* tt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tt.h; sourceTree = "<group>"; };
+		EF6DD5A320249ADF00073FD6 /* types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		EF6DD5A420249ADF00073FD6 /* uci.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = uci.cpp; sourceTree = "<group>"; };
+		EF6DD5A520249ADF00073FD6 /* uci.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uci.h; sourceTree = "<group>"; };
+		EF6DD5A620249ADF00073FD6 /* ucioption.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ucioption.cpp; sourceTree = "<group>"; };
+		EF6DD5A820249ADF00073FD6 /* instrumented.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = instrumented.sh; sourceTree = "<group>"; };
+		EF6DD5A920249ADF00073FD6 /* perft.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = perft.sh; sourceTree = "<group>"; };
+		EF6DD5AA20249ADF00073FD6 /* reprosearch.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = reprosearch.sh; sourceTree = "<group>"; };
+		EF6DD5AB20249ADF00073FD6 /* signature.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = signature.sh; sourceTree = "<group>"; };
+		EF6DD5AC20249ADF00073FD6 /* Top CPU Contributors.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Top CPU Contributors.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1902,60 +1923,11 @@
 				1796007911D393A60074E5B7 /* scale.h */,
 				1796007A11D393A60074E5B7 /* square.cpp */,
 				1796007B11D393A60074E5B7 /* square.h */,
-				1796007C11D393A60074E5B7 /* types.h */,
+				1796007C11D393A60074E5B7 /* types_.h */,
 				1796007D11D393A60074E5B7 /* value.cpp */,
 				1796007E11D393A60074E5B7 /* value.h */,
 			);
 			name = Chess;
-			sourceTree = "<group>";
-		};
-		1796FEA511D3916D0074E5B7 /* Engine */ = {
-			isa = PBXGroup;
-			children = (
-				17DCB7DF15C54A2D005ADD54 /* benchmark.cpp */,
-				17DCB7E015C54A2D005ADD54 /* bitbase.cpp */,
-				17DCB7E115C54A2D005ADD54 /* bitboard.cpp */,
-				17DCB7E215C54A2D005ADD54 /* bitboard.h */,
-				17DCB7E315C54A2D005ADD54 /* bitcount.h */,
-				17DCB7E415C54A2D005ADD54 /* book.cpp */,
-				17DCB7E515C54A2D005ADD54 /* book.h */,
-				17DCB7E615C54A2D005ADD54 /* endgame.cpp */,
-				17DCB7E715C54A2D005ADD54 /* endgame.h */,
-				17DCB7E815C54A2D005ADD54 /* evaluate.cpp */,
-				17DCB7E915C54A2D005ADD54 /* evaluate.h */,
-				17DCB7EB15C54A2D005ADD54 /* iphone.h */,
-				17DCB7EC15C54A2D005ADD54 /* iphone.mm */,
-				17DCB7EE15C54A2D005ADD54 /* material.cpp */,
-				17DCB7EF15C54A2D005ADD54 /* material.h */,
-				17DCB7F015C54A2D005ADD54 /* misc.cpp */,
-				17DCB7F115C54A2D005ADD54 /* misc.h */,
-				17DCB7F315C54A2D005ADD54 /* movegen.cpp */,
-				17DCB7F415C54A2D005ADD54 /* movegen.h */,
-				17DCB7F515C54A2D005ADD54 /* movepick.cpp */,
-				17DCB7F615C54A2D005ADD54 /* movepick.h */,
-				17C81EE317E314FA00A47866 /* notation.cpp */,
-				17C81EE417E314FA00A47866 /* notation.h */,
-				17DCB7F715C54A2D005ADD54 /* pawns.cpp */,
-				17DCB7F815C54A2D005ADD54 /* pawns.h */,
-				17DCB7F915C54A2D005ADD54 /* position.cpp */,
-				17DCB7FA15C54A2D005ADD54 /* position.h */,
-				17DCB7FB15C54A2D005ADD54 /* psqtab.h */,
-				17DCB7FC15C54A2D005ADD54 /* rkiss.h */,
-				17DCB7FD15C54A2D005ADD54 /* search.cpp */,
-				17DCB7FE15C54A2D005ADD54 /* search.h */,
-				17DCB7FF15C54A2D005ADD54 /* thread.cpp */,
-				17DCB80015C54A2D005ADD54 /* thread.h */,
-				17DCB80115C54A2D005ADD54 /* timeman.cpp */,
-				17DCB80215C54A2D005ADD54 /* timeman.h */,
-				17DCB80315C54A2D005ADD54 /* tt.cpp */,
-				17DCB80415C54A2D005ADD54 /* tt.h */,
-				17DCB80515C54A2D005ADD54 /* types.h */,
-				17DCB80615C54A2D005ADD54 /* uci.cpp */,
-				17DCB80715C54A2D005ADD54 /* ucioption.cpp */,
-				17DCB80815C54A2D005ADD54 /* ucioption.h */,
-			);
-			name = Engine;
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		1796FF8011D3924E0074E5B7 /* Images */ = {
@@ -2250,10 +2222,10 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				EF6DD57720249ADF00073FD6 /* stockfish-9-src */,
 				1729521219DC6B66008E9803 /* Launch Screen.xib */,
 				1796005911D3938F0074E5B7 /* Chess */,
 				080E96DDFE201D6D7F000001 /* Classes */,
-				1796FEA511D3916D0074E5B7 /* Engine */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				1751000A1272E39500A59D5B /* Resources-iPad */,
@@ -2316,6 +2288,87 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		EF6DD57720249ADF00073FD6 /* stockfish-9-src */ = {
+			isa = PBXGroup;
+			children = (
+				EF6DD57820249ADF00073FD6 /* .travis.yml */,
+				EF6DD57920249ADF00073FD6 /* appveyor.yml */,
+				EF6DD57A20249ADF00073FD6 /* AUTHORS */,
+				EF6DD57B20249ADF00073FD6 /* Copying.txt */,
+				EF6DD57C20249ADF00073FD6 /* iphone.h */,
+				EF6DD57D20249ADF00073FD6 /* iphone.mm */,
+				EF6DD57E20249ADF00073FD6 /* Readme.md */,
+				EF6DD57F20249ADF00073FD6 /* src */,
+				EF6DD5A720249ADF00073FD6 /* tests */,
+				EF6DD5AC20249ADF00073FD6 /* Top CPU Contributors.txt */,
+			);
+			path = "stockfish-9-src";
+			sourceTree = "<group>";
+		};
+		EF6DD57F20249ADF00073FD6 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				EF6DD58020249ADF00073FD6 /* benchmark.cpp */,
+				EF6DD58120249ADF00073FD6 /* bitbase.cpp */,
+				EF6DD58220249ADF00073FD6 /* bitboard.cpp */,
+				EF6DD58320249ADF00073FD6 /* bitboard.h */,
+				EF6DD58420249ADF00073FD6 /* endgame.cpp */,
+				EF6DD58520249ADF00073FD6 /* endgame.h */,
+				EF6DD58620249ADF00073FD6 /* evaluate.cpp */,
+				EF6DD58720249ADF00073FD6 /* evaluate.h */,
+				EF6DD58820249ADF00073FD6 /* main.cpp */,
+				EF6DD58920249ADF00073FD6 /* Makefile */,
+				EF6DD58A20249ADF00073FD6 /* material.cpp */,
+				EF6DD58B20249ADF00073FD6 /* material.h */,
+				EF6DD58C20249ADF00073FD6 /* misc.cpp */,
+				EF6DD58D20249ADF00073FD6 /* misc.h */,
+				EF6DD58E20249ADF00073FD6 /* movegen.cpp */,
+				EF6DD58F20249ADF00073FD6 /* movegen.h */,
+				EF6DD59020249ADF00073FD6 /* movepick.cpp */,
+				EF6DD59120249ADF00073FD6 /* movepick.h */,
+				EF6DD59220249ADF00073FD6 /* pawns.cpp */,
+				EF6DD59320249ADF00073FD6 /* pawns.h */,
+				EF6DD59420249ADF00073FD6 /* position.cpp */,
+				EF6DD59520249ADF00073FD6 /* position.h */,
+				EF6DD59620249ADF00073FD6 /* psqt.cpp */,
+				EF6DD59720249ADF00073FD6 /* search.cpp */,
+				EF6DD59820249ADF00073FD6 /* search.h */,
+				EF6DD59920249ADF00073FD6 /* syzygy */,
+				EF6DD59C20249ADF00073FD6 /* thread.cpp */,
+				EF6DD59D20249ADF00073FD6 /* thread.h */,
+				EF6DD59E20249ADF00073FD6 /* thread_win32.h */,
+				EF6DD59F20249ADF00073FD6 /* timeman.cpp */,
+				EF6DD5A020249ADF00073FD6 /* timeman.h */,
+				EF6DD5A120249ADF00073FD6 /* tt.cpp */,
+				EF6DD5A220249ADF00073FD6 /* tt.h */,
+				EF6DD5A320249ADF00073FD6 /* types.h */,
+				EF6DD5A420249ADF00073FD6 /* uci.cpp */,
+				EF6DD5A520249ADF00073FD6 /* uci.h */,
+				EF6DD5A620249ADF00073FD6 /* ucioption.cpp */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		EF6DD59920249ADF00073FD6 /* syzygy */ = {
+			isa = PBXGroup;
+			children = (
+				EF6DD59A20249ADF00073FD6 /* tbprobe.cpp */,
+				EF6DD59B20249ADF00073FD6 /* tbprobe.h */,
+			);
+			path = syzygy;
+			sourceTree = "<group>";
+		};
+		EF6DD5A720249ADF00073FD6 /* tests */ = {
+			isa = PBXGroup;
+			children = (
+				EF6DD5A820249ADF00073FD6 /* instrumented.sh */,
+				EF6DD5A920249ADF00073FD6 /* perft.sh */,
+				EF6DD5AA20249ADF00073FD6 /* reprosearch.sh */,
+				EF6DD5AB20249ADF00073FD6 /* signature.sh */,
+			);
+			path = tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2342,7 +2395,7 @@
 		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0920;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = MLQ27XKV79;
@@ -2389,6 +2442,7 @@
 				1773FED117EC9A7D00CB6DD3 /* LeipzigBBishop@2x.png in Resources */,
 				1773007017EC9AA300CB6DD3 /* BerlinWRook96.png in Resources */,
 				177F564719DB012D001D2F20 /* LeipzigBQueen@3x.png in Resources */,
+				EF6DD5AE20249ADF00073FD6 /* appveyor.yml in Resources */,
 				1773FF3017EC9A7D00CB6DD3 /* ModernWKnight.png in Resources */,
 				1773FE9417EC9A7D00CB6DD3 /* BerlinBKing@2x.png in Resources */,
 				1773005517EC9AA300CB6DD3 /* AlphaWPawn96@2x.png in Resources */,
@@ -2418,6 +2472,7 @@
 				177300F217EC9AA300CB6DD3 /* ModernWPawn96.png in Resources */,
 				1773FE7E17EC9A7D00CB6DD3 /* AlphaBKnight@2x.png in Resources */,
 				172D6C5C18D84B43003A7303 /* RussianBKnight.png in Resources */,
+				EF6DD5B220249ADF00073FD6 /* Readme.md in Resources */,
 				1773FEAB17EC9A7D00CB6DD3 /* CheqBKing.png in Resources */,
 				177F565119DB012D001D2F20 /* MeridaBKnight@3x.png in Resources */,
 				1773FEB817EC9A7D00CB6DD3 /* CheqWKing@2x.png in Resources */,
@@ -2447,6 +2502,7 @@
 				179600E111D397240074E5B7 /* Icon.png in Resources */,
 				1773007E17EC9AA300CB6DD3 /* CheqWBishop96.png in Resources */,
 				177300C817EC9AA300CB6DD3 /* MeridaBBishop96.png in Resources */,
+				EF6DD5AD20249ADF00073FD6 /* .travis.yml in Resources */,
 				177F564D19DB012D001D2F20 /* LeipzigWQueen@3x.png in Resources */,
 				177C361B17F1D06F00FF576F /* Tal.pgn in Resources */,
 				17CD831A17E6041A00D4B532 /* book.bin in Resources */,
@@ -2455,6 +2511,7 @@
 				1773FF0317EC9A7D00CB6DD3 /* MayaWPawn@2x.png in Resources */,
 				1773009417EC9AA300CB6DD3 /* LeipzigBKing96@2x.png in Resources */,
 				177F565019DB012D001D2F20 /* MeridaBKing@3x.png in Resources */,
+				EF6DD5CC20249ADF00073FD6 /* Top CPU Contributors.txt in Resources */,
 				179601B811D3CDA00074E5B7 /* Icon@2x.png in Resources */,
 				1773FEAA17EC9A7D00CB6DD3 /* CheqBBishop@2x.png in Resources */,
 				1773FF1617EC9A7D00CB6DD3 /* MeridaWKing.png in Resources */,
@@ -2495,6 +2552,7 @@
 				1773004F17EC9AA300CB6DD3 /* AlphaWBishop96@2x.png in Resources */,
 				1773005717EC9AA300CB6DD3 /* AlphaWQueen96@2x.png in Resources */,
 				1773007C17EC9AA300CB6DD3 /* CheqBRook96.png in Resources */,
+				EF6DD5C820249ADF00073FD6 /* instrumented.sh in Resources */,
 				1773006A17EC9AA300CB6DD3 /* BerlinWKnight96.png in Resources */,
 				17D23EBF127C0A940018E053 /* Icon-72.png in Resources */,
 				1773FF0117EC9A7D00CB6DD3 /* MayaWKnight@2x.png in Resources */,
@@ -2689,6 +2747,7 @@
 				1773007717EC9AA300CB6DD3 /* CheqBKnight96@2x.png in Resources */,
 				1773FEDE17EC9A7D00CB6DD3 /* LeipzigWKing.png in Resources */,
 				1773010617EC9AA300CB6DD3 /* USCFWKing96.png in Resources */,
+				EF6DD5C920249ADF00073FD6 /* perft.sh in Resources */,
 				1773007217EC9AA300CB6DD3 /* CheqBBishop96.png in Resources */,
 				1773FE7A17EC9A7D00CB6DD3 /* AlphaBBishop@2x.png in Resources */,
 				1773FEDD17EC9A7D00CB6DD3 /* LeipzigWBishop@2x.png in Resources */,
@@ -2716,6 +2775,7 @@
 				177300A017EC9AA300CB6DD3 /* LeipzigWKing96@2x.png in Resources */,
 				1773FE8517EC9A7D00CB6DD3 /* AlphaWBishop.png in Resources */,
 				1773FE7B17EC9A7D00CB6DD3 /* AlphaBKing.png in Resources */,
+				EF6DD5B020249ADF00073FD6 /* Copying.txt in Resources */,
 				177300C917EC9AA300CB6DD3 /* MeridaBBishop96@2x.png in Resources */,
 				1773010917EC9AA300CB6DD3 /* USCFWKnight96@2x.png in Resources */,
 				1773009B17EC9AA300CB6DD3 /* LeipzigBRook96.png in Resources */,
@@ -2726,6 +2786,7 @@
 				177300D817EC9AA300CB6DD3 /* MeridaWKnight96.png in Resources */,
 				1773009517EC9AA300CB6DD3 /* LeipzigBKnight96.png in Resources */,
 				177F565F19DB012D001D2F20 /* USCFBQueen@3x.png in Resources */,
+				EF6DD5CB20249ADF00073FD6 /* signature.sh in Resources */,
 				177300E217EC9AA300CB6DD3 /* ModernBKing96.png in Resources */,
 				177300F117EC9AA300CB6DD3 /* ModernWKnight96@2x.png in Resources */,
 				1773FF2217EC9A7D00CB6DD3 /* ModernBKing.png in Resources */,
@@ -2776,6 +2837,7 @@
 				17EB9AF615C4430500AFF87A /* Capture1.wav in Resources */,
 				172D6C6D18D84B43003A7303 /* RussianWQueen@2x.png in Resources */,
 				1773FEA317EC9A7D00CB6DD3 /* BerlinWPawn.png in Resources */,
+				EF6DD5CA20249ADF00073FD6 /* reprosearch.sh in Resources */,
 				177F565619DB012D001D2F20 /* MeridaWKing@3x.png in Resources */,
 				172D6C6F18D84B43003A7303 /* RussianWRook@2x.png in Resources */,
 				17EB9AF715C4430500AFF87A /* Capture2.wav in Resources */,
@@ -2818,6 +2880,7 @@
 				177C361617F1D06F00FF576F /* Rubinstein.pgn in Resources */,
 				1773FF2F17EC9A7D00CB6DD3 /* ModernWKing@2x.png in Resources */,
 				1773007417EC9AA300CB6DD3 /* CheqBKing96.png in Resources */,
+				EF6DD5AF20249ADF00073FD6 /* AUTHORS in Resources */,
 				177300E417EC9AA300CB6DD3 /* ModernBKnight96.png in Resources */,
 				1773FEF117EC9A7D00CB6DD3 /* MayaBBishop@2x.png in Resources */,
 				177300BE17EC9AA300CB6DD3 /* MayaWKing96.png in Resources */,
@@ -2952,16 +3015,19 @@
 			files = (
 				1796FEA111D391570074E5B7 /* main.mm in Sources */,
 				1773011E17EDB10200CB6DD3 /* AnimatedGameView.mm in Sources */,
-				17C81EE517E314FA00A47866 /* notation.cpp in Sources */,
 				1796FF5211D3921A0074E5B7 /* AboutController.mm in Sources */,
 				1796FF5311D3921A0074E5B7 /* BoardView.mm in Sources */,
 				1796FF5411D3921A0074E5B7 /* BoardViewController.mm in Sources */,
+				EF6DD5C320249ADF00073FD6 /* thread.cpp in Sources */,
+				EF6DD5BC20249ADF00073FD6 /* movegen.cpp in Sources */,
 				1796FF5511D3921A0074E5B7 /* CastleRightsController.mm in Sources */,
 				1796FF5611D3921A0074E5B7 /* ChessClock.mm in Sources */,
+				EF6DD5BF20249ADF00073FD6 /* position.cpp in Sources */,
 				1796FF5711D3921A0074E5B7 /* ChessMove.mm in Sources */,
 				1796FF5811D3921A0074E5B7 /* DateTagViewController.mm in Sources */,
 				1796FF5911D3921A0074E5B7 /* EditUserNameController.mm in Sources */,
 				1796FF5A11D3921A0074E5B7 /* EmailAddressController.mm in Sources */,
+				EF6DD5C020249ADF00073FD6 /* psqt.cpp in Sources */,
 				1796FF5B11D3921A0074E5B7 /* EngineController.mm in Sources */,
 				1796FF5C11D3921A0074E5B7 /* EpSquareController.mm in Sources */,
 				1796FF5D11D3921A0074E5B7 /* Game.mm in Sources */,
@@ -2969,40 +3035,55 @@
 				1796FF5F11D3921A0074E5B7 /* GameDetailsTableController.mm in Sources */,
 				1796FF6011D3921A0074E5B7 /* GameListController.mm in Sources */,
 				1796FF6111D3921A0074E5B7 /* GameParser.mm in Sources */,
+				EF6DD5B420249ADF00073FD6 /* bitbase.cpp in Sources */,
 				1796FF6211D3921A0074E5B7 /* GamePreview.mm in Sources */,
 				1796FF6311D3921A0074E5B7 /* AppDelegate.mm in Sources */,
 				1796FF6411D3921A0074E5B7 /* HighlightedSquaresView.mm in Sources */,
+				EF6DD5BE20249ADF00073FD6 /* pawns.cpp in Sources */,
 				1796FF6511D3921A0074E5B7 /* LastMoveView.mm in Sources */,
 				1796FF6611D3921A0074E5B7 /* LevelViewController.mm in Sources */,
 				1796FF6711D3921A0074E5B7 /* LoadFileListController.mm in Sources */,
+				EF6DD5C720249ADF00073FD6 /* ucioption.cpp in Sources */,
 				1796FF6811D3921A0074E5B7 /* MoveListView.mm in Sources */,
 				1796FF6911D3921A0074E5B7 /* OpeningBook.mm in Sources */,
 				1796FF6A11D3921A0074E5B7 /* Options.mm in Sources */,
 				1796FF6B11D3921A0074E5B7 /* OptionsViewController.mm in Sources */,
 				1796FF6C11D3921A0074E5B7 /* PGN.mm in Sources */,
+				EF6DD5B720249ADF00073FD6 /* evaluate.cpp in Sources */,
 				1796FF6D11D3921A0074E5B7 /* PGNTextFieldController.mm in Sources */,
 				1796FF6E11D3921A0074E5B7 /* PieceImageView.mm in Sources */,
+				EF6DD5C120249ADF00073FD6 /* search.cpp in Sources */,
+				EF6DD5B620249ADF00073FD6 /* endgame.cpp in Sources */,
 				1796FF7011D3921A0074E5B7 /* Queue.mm in Sources */,
+				EF6DD5BB20249ADF00073FD6 /* misc.cpp in Sources */,
 				1796FF7511D3921A0074E5B7 /* ResultTagViewController.mm in Sources */,
+				EF6DD5C220249ADF00073FD6 /* tbprobe.cpp in Sources */,
 				1796FF7611D3921A0074E5B7 /* RootView.mm in Sources */,
 				1796FF7711D3921A0074E5B7 /* SaveFileListController.mm in Sources */,
+				EF6DD5B120249ADF00073FD6 /* iphone.mm in Sources */,
 				1773FD6E17E9F10700CB6DD3 /* SelectColorSchemeController.mm in Sources */,
 				1796FF7811D3921A0074E5B7 /* SelectedPieceView.mm in Sources */,
+				EF6DD5BD20249ADF00073FD6 /* movepick.cpp in Sources */,
 				1796FF7911D3921A0074E5B7 /* SelectedSquareView.mm in Sources */,
+				EF6DD5B920249ADF00073FD6 /* Makefile in Sources */,
 				1796FF7A11D3921A0074E5B7 /* SetupBoardView.mm in Sources */,
 				1796FF7B11D3921A0074E5B7 /* SetupViewController.mm in Sources */,
 				1796FF7C11D3921A0074E5B7 /* SideToMoveController.mm in Sources */,
+				EF6DD5C520249ADF00073FD6 /* tt.cpp in Sources */,
 				1796FF7D11D3921A0074E5B7 /* SimpleOptionTableController.mm in Sources */,
 				1740653518DB5DD5000C4C74 /* Util.mm in Sources */,
 				1796FF7E11D3921A0074E5B7 /* StrengthOptionController.mm in Sources */,
 				1773FD6B17E78C0B00CB6DD3 /* PiecePreview.mm in Sources */,
 				1796FF7F11D3921A0074E5B7 /* TypeFileNameController.mm in Sources */,
 				1796008011D393A60074E5B7 /* bitboard.cpp in Sources */,
+				EF6DD5C620249ADF00073FD6 /* uci.cpp in Sources */,
 				1796008111D393A60074E5B7 /* book.cpp in Sources */,
 				1796008211D393A60074E5B7 /* color.cpp in Sources */,
 				1796008311D393A60074E5B7 /* direction.cpp in Sources */,
+				EF6DD5B320249ADF00073FD6 /* benchmark.cpp in Sources */,
 				1796008411D393A60074E5B7 /* mersenne.cpp in Sources */,
 				1796008511D393A60074E5B7 /* misc.cpp in Sources */,
+				EF6DD5BA20249ADF00073FD6 /* material.cpp in Sources */,
 				1796008611D393A60074E5B7 /* move.cpp in Sources */,
 				1796008711D393A60074E5B7 /* movegen.cpp in Sources */,
 				1773FD7117E9FD7A00CB6DD3 /* SelectPieceSetController.mm in Sources */,
@@ -3010,31 +3091,15 @@
 				1796008911D393A60074E5B7 /* piece.cpp in Sources */,
 				1796008A11D393A60074E5B7 /* position.cpp in Sources */,
 				1796008B11D393A60074E5B7 /* san.cpp in Sources */,
+				EF6DD5C420249ADF00073FD6 /* timeman.cpp in Sources */,
 				1796008C11D393A60074E5B7 /* square.cpp in Sources */,
 				1796008D11D393A60074E5B7 /* value.cpp in Sources */,
 				17DC4770132B938B00C48450 /* CoordinatesView.mm in Sources */,
 				17560C3313360B5400466B87 /* MoveTableViewController.mm in Sources */,
+				EF6DD5B820249ADF00073FD6 /* main.cpp in Sources */,
 				17560C77133627A900466B87 /* MoveListCell.mm in Sources */,
 				17560CA11336310200466B87 /* BoardPreview.mm in Sources */,
-				17DCB80915C54A2D005ADD54 /* benchmark.cpp in Sources */,
-				17DCB80A15C54A2D005ADD54 /* bitbase.cpp in Sources */,
-				17DCB80B15C54A2D005ADD54 /* bitboard.cpp in Sources */,
-				17DCB80C15C54A2D005ADD54 /* book.cpp in Sources */,
-				17DCB80D15C54A2D005ADD54 /* endgame.cpp in Sources */,
-				17DCB80E15C54A2D005ADD54 /* evaluate.cpp in Sources */,
-				17DCB80F15C54A2D005ADD54 /* iphone.mm in Sources */,
-				17DCB81015C54A2D005ADD54 /* material.cpp in Sources */,
-				17DCB81115C54A2D005ADD54 /* misc.cpp in Sources */,
-				17DCB81315C54A2D005ADD54 /* movegen.cpp in Sources */,
-				17DCB81415C54A2D005ADD54 /* movepick.cpp in Sources */,
-				17DCB81515C54A2D005ADD54 /* pawns.cpp in Sources */,
-				17DCB81615C54A2D005ADD54 /* position.cpp in Sources */,
-				17DCB81715C54A2D005ADD54 /* search.cpp in Sources */,
-				17DCB81815C54A2D005ADD54 /* thread.cpp in Sources */,
-				17DCB81915C54A2D005ADD54 /* timeman.cpp in Sources */,
-				17DCB81A15C54A2D005ADD54 /* tt.cpp in Sources */,
-				17DCB81B15C54A2D005ADD54 /* uci.cpp in Sources */,
-				17DCB81C15C54A2D005ADD54 /* ucioption.cpp in Sources */,
+				EF6DD5B520249ADF00073FD6 /* bitboard.cpp in Sources */,
 				1799C31615DA7AEF0042DE41 /* ECO.mm in Sources */,
 				3669E881C221C4E64F0C2F9E /* ColorUtils.mm in Sources */,
 				3669EEA85F37F07344CF192F /* ArrowView.mm in Sources */,
@@ -3047,12 +3112,34 @@
 		175E2E6B11D3F3B7006B0D16 /* AppStore Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "2DD57107-82DA-4DB7-9386-6F4FD1EEC306";
@@ -3066,21 +3153,25 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = MLQ27XKV79;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Stockfish_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_STRICT_ALIASING = YES;
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Stockfish-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_CFLAGS = (
@@ -3091,6 +3182,7 @@
 					"-DNDEBUG",
 					"$(OTHER_CFLAGS)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallchess.stockfish8;
 				PRODUCT_NAME = Stockfish;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -3103,12 +3195,34 @@
 		1796013A11D3A5340074E5B7 /* Distribution */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "77014BEE-81AC-491E-92EC-491EFE73DA9E";
@@ -3122,21 +3236,25 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = MLQ27XKV79;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
-				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Stockfish_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_STRICT_ALIASING = YES;
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Stockfish-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_CFLAGS = (
@@ -3147,6 +3265,7 @@
 					"-DNDEBUG",
 					"$(OTHER_CFLAGS)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallchess.stockfish8;
 				PRODUCT_NAME = Stockfish;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -3162,19 +3281,26 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEVELOPMENT_TEAM = MLQ27XKV79;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Stockfish_Prefix.pch;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Stockfish-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallchess.stockfish8;
 				PRODUCT_NAME = Stockfish;
 				PROVISIONING_PROFILE = "";
 				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
@@ -3189,20 +3315,24 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CODE_SIGN_ENTITLEMENTS = "";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				DEVELOPMENT_TEAM = MLQ27XKV79;
-				GCC_ENABLE_CPP_EXCEPTIONS = NO;
-				GCC_ENABLE_CPP_RTTI = NO;
+				ENABLE_BITCODE = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_OPTIMIZATION_LEVEL = 3;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Stockfish_Prefix.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_THUMB_SUPPORT = NO;
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_VERSION = "";
 				INFOPLIST_FILE = "Stockfish-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				OTHER_CFLAGS = (
@@ -3213,6 +3343,7 @@
 					"-DNDEBUG",
 					"$(OTHER_CFLAGS)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.smallchess.stockfish8;
 				PRODUCT_NAME = Stockfish;
 				PROVISIONING_PROFILE = "";
 				SDKROOT = iphoneos;
@@ -3224,12 +3355,35 @@
 		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE = "77014BEE-81AC-491E-92EC-491EFE73DA9E";
@@ -3240,12 +3394,34 @@
 		C01FCF5008A954540054247B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tord Romstad (CJ97SH27TQ)";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = fast;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PROVISIONING_PROFILE = "77014BEE-81AC-491E-92EC-491EFE73DA9E";

@@ -37,6 +37,10 @@
 #include "uci.h"
 #include "syzygy/tbprobe.h"
 
+// PUSH iPHONE
+#include "iphone.h"
+// POP iPHONE
+
 namespace Search {
 
   LimitsType Limits;
@@ -56,6 +60,27 @@ namespace TB = Tablebases;
 using std::string;
 using Eval::evaluate;
 using namespace Search;
+
+// PUSH iPHONE
+int score_to_ios(Value v) {
+    if (abs(v) < VALUE_MATE_IN_MAX_PLY)
+        return int(v * 100 / int(PawnValueMg));
+    else
+        return (v > 0 ? VALUE_MATE - v + 1 : -VALUE_MATE - v) / 2;
+}
+
+int scoretype_to_ios(Value v, Value alpha, Value beta) {
+    return v >= beta ? 1 : v <= alpha ? -1 : 0;
+}
+
+string pv_to_ios(const std::vector<Move> &pv) {
+    std::stringstream s;
+    for (size_t j = 0; pv[j] != MOVE_NONE; ++j)
+        //s << move_to_uci(pv[j], false) << " ";
+        s << pv[j] << " ";
+    return s.str();
+}
+// POP iPHONE
 
 namespace {
 
@@ -264,6 +289,11 @@ void MainThread::search() {
 
   sync_cout << "bestmove " << UCI::move(bestThread->rootMoves[0].pv[0], rootPos.is_chess960());
 
+    // PUSH iPHONE
+    bestmove_to_ui(UCI::move(bestThread->rootMoves[0].pv[0], rootPos.is_chess960()),
+                   UCI::move(bestThread->rootMoves[0].pv[1], rootPos.is_chess960()));
+    // POP iPHONE
+    
   if (bestThread->rootMoves[0].pv.size() > 1 || bestThread->rootMoves[0].extract_ponder_from_tt(rootPos))
       std::cout << " ponder " << UCI::move(bestThread->rootMoves[0].pv[1], rootPos.is_chess960());
 
@@ -812,10 +842,17 @@ moves_loop: // When in check search starts from here
       ss->moveCount = ++moveCount;
 
       if (rootNode && thisThread == Threads.main() && Time.elapsed() > 3000)
+      {
           sync_cout << "info depth " << depth / ONE_PLY
                     << " currmove " << UCI::move(move, pos.is_chess960())
                     << " currmovenumber " << moveCount + thisThread->PVIdx << sync_endl;
 
+        // PUSH iPHONE
+        currmove_to_ui(UCI::move(move, pos.is_chess960()), moveCount + thisThread->PVIdx,
+                       thisThread->rootMoves.size(), depth / ONE_PLY);
+        // POP iPHONE
+      }
+        
       if (PvNode)
           (ss+1)->pv = nullptr;
 
@@ -1505,6 +1542,7 @@ moves_loop: // When in check search starts from here
     {
         lastInfoTime = tick;
         dbg_print();
+        searchstats_to_ui(Threads.nodes_searched(), elapsed);
     }
 
     // An engine may not stop pondering until told so by the GUI
@@ -1566,8 +1604,18 @@ string UCI::pv(const Position& pos, Depth depth, Value alpha, Value beta) {
          << " time "     << elapsed
          << " pv";
 
+      std::stringstream sss;
+      
       for (Move m : rootMoves[i].pv)
+      {
           ss << " " << UCI::move(m, pos.is_chess960());
+          sss << " " << UCI::move(m, pos.is_chess960());
+      }
+      
+      // PUSH iPHONE
+      pv_to_ui(sss.str(), d, score_to_ios(v), scoretype_to_ios(v, alpha, beta),
+               abs(v) >= VALUE_MATE_IN_MAX_PLY);
+      // POP iPHONE
   }
 
   return ss.str();

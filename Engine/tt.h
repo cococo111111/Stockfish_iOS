@@ -21,7 +21,7 @@
 #define TT_H_INCLUDED
 
 #include "misc.h"
-#include "types.h"
+#include "types_.h"
 
 /// The TTEntry is the 14 bytes transposition table entry, defined as below:
 ///

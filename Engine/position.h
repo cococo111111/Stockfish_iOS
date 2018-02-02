@@ -24,7 +24,7 @@
 #include <cstddef>
 
 #include "bitboard.h"
-#include "types.h"
+#include "types_.h"
 
 
 /// The checkInfo struct is initialized at c'tor time and keeps info used

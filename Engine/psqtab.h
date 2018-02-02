@@ -20,7 +20,7 @@
 #ifndef PSQTAB_H_INCLUDED
 #define PSQTAB_H_INCLUDED
 
-#include "types.h"
+#include "types_.h"
 
 #define S(mg, eg) make_score(mg, eg)
 

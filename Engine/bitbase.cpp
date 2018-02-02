@@ -21,7 +21,7 @@
 #include <vector>
 
 #include "bitboard.h"
-#include "types.h"
+#include "types_.h"
 
 namespace {
 

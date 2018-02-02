@@ -25,7 +25,7 @@
 #ifndef RKISS_H_INCLUDED
 #define RKISS_H_INCLUDED
 
-#include "types.h"
+#include "types_.h"
 
 /// RKISS is our pseudo random number generator (PRNG) used to compute hash keys.
 /// George Marsaglia invented the RNG-Kiss-family in the early 90's. This is a

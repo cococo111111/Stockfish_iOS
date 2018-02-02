@@ -32,7 +32,7 @@ namespace PSQT {
   void init();
 }
 
-int main(int argc, char* argv[]) {
+int engine_init_SF9(int argc, char* argv[]) {
 
   std::cout << engine_info() << std::endl;
 
@@ -48,8 +48,8 @@ int main(int argc, char* argv[]) {
   Threads.set(Options["Threads"]);
   Search::clear(); // After threads are up
 
-  UCI::loop(argc, argv);
+  //UCI::loop(argc, argv);
 
-  Threads.set(0);
+  //Threads.set(0);
   return 0;
 }

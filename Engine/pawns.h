@@ -22,7 +22,7 @@
 
 #include "misc.h"
 #include "position.h"
-#include "types.h"
+#include "types_.h"
 
 namespace Pawns {
 

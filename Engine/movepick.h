@@ -26,7 +26,7 @@
 #include "movegen.h"
 #include "position.h"
 #include "search.h"
-#include "types.h"
+#include "types_.h"
 
 
 /// The Stats struct stores moves statistics. According to the template parameter
