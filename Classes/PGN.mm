@@ -45,7 +45,7 @@ enum token_t_ {
 
 static BOOL is_symbol_start(int c);
 static BOOL is_symbol_next(int c);
-static void raisePGNException(NSString *exceptionreason);
+//static void raisePGNException(NSString *exceptionreason);
 
 // private methods:
 
@@ -467,6 +467,7 @@ static BOOL is_symbol_next(int c) {
       strchr("ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_+#=:-/",c) != NULL;
 }
 
+/*
 static void raisePGNException(NSString *exceptionreason) {
    NSException *e = [NSException exceptionWithName: @"PGNParseException"
                                             reason: exceptionreason
@@ -475,7 +476,7 @@ static void raisePGNException(NSString *exceptionreason) {
    @throw e;
    //  [e raise];
 }
-
+*/
 -(void)charRead {
    // char "stack"
    if (charUnread) {
