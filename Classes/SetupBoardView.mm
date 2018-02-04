@@ -23,7 +23,7 @@
 #import "SetupBoardView.h"
 #import "SetupViewController.h"
 
-#import "position.h"
+#import "../Chess/position.h"
 
 
 @implementation SetupBoardView
