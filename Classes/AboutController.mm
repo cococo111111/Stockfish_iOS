@@ -26,7 +26,7 @@
 - (id)init {
    if (self = [super init]) {
       //[self setContentSizeForViewInPopover: CGSizeMake(500.0f, 400.0f)];
-      [self setPreferredContentSize: CGSizeMake(500.0f, 400.0f)];
+      [self setPreferredContentSize: CGSizeMake(320.0f, 400.0f)];
    }   return self;
 }
 

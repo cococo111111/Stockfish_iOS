@@ -34,7 +34,10 @@
 - (id)initWithBoardViewController:(BoardViewController *)bvc {
    if (self = [super initWithStyle: UITableViewStyleGrouped]) {
       if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad)
+      {
          [self setTitle: nil];
+         [self setPreferredContentSize: CGSizeMake(320.0f, 400.0f)];
+      }
       else
          [self setTitle: @"Options"];
       boardViewController = bvc;
