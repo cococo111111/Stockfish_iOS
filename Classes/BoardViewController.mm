@@ -335,7 +335,17 @@
       //[buttons addObject: spacer];
 
       [toolbar setItems: buttons animated: NO];
-      toolbar.frame = CGRectMake(0.0f, frameHeight-44.0f, appRect.size.width, 44.0f);
+      
+       if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone &&
+           [[UIScreen mainScreen] nativeBounds].size.height == 2436)
+       {
+           toolbar.frame = CGRectMake(0.0f, frameHeight-44.0f-44.0f, appRect.size.width, 44.0f);
+       }
+       else
+       {
+           toolbar.frame = CGRectMake(0.0f, frameHeight-44.0f, appRect.size.width, 44.0f);
+       }
+
       [contentView addSubview: toolbar];
       //[toolbar sizeToFit];
 
