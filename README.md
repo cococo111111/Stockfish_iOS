@@ -7,4 +7,4 @@ Stockfish iOS app ported for the `Stockfish 9` engine, among with other improvem
 
 In response to https://github.com/official-stockfish/Stockfish/issues/1383.
 
-This app is not on the App Store. Please send a Github issue if you want me to send you a copy.
+This app is not on the App Store. Please create a Github issue if you want me to send you a TestFlight copy.
